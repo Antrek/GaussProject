@@ -1,0 +1,203 @@
+﻿  ____                     _    _                             _             
+ / __ \                   | |  (_)                           (_)            
+| |  | | _   _   ___  ___ | |_  _   ___   _ __    __ _  _ __  _   ___   ___ 
+| |  | || | | | / _ \/ __|| __|| | / _ \ | '_ \  / _` || '__|| | / _ \ / __|
+| |__| || |_| ||  __/\__ \| |_ | || (_) || | | || (_| || |   | || (_) |\__ \
+ \___\_\ \__,_| \___||___/ \__||_| \___/ |_| |_| \__,_||_|   |_| \___/ |___/
+                                                                            
+                                                                            
+                                            _             
+    /\                                     | |            
+   /  \ __   __ __ _  _ __   ____ __ _   __| |  ___   ___ 
+  / /\ \\ \ / // _` || '_ \ |_  // _` | / _` | / _ \ / __|
+ / ____ \\ V /| (_| || | | | / /| (_| || (_| || (_) |\__ \
+/_/    \_\\_/  \__,_||_| |_|/___|\__,_| \__,_| \___/ |___/
+                                                          
+============================================================================
+Manual de usuario "Questionarios Avanzados"
+============================================================================
+Contenidos
+============================================================================
+ [1]  Introduccion
+ [2]  Ventana de Login
+	[2.1]  Ventana Registro
+ [3]  Menu de jugador
+	[3.1]  Jugar
+	[3.2]  Mi perfil
+	[3.3]  Logout
+ [4]  Menu de editor
+	[4.1]  Añadir
+	[4.2]  Ver/Editar
+	[4.3]  Borrar
+	[4.4]  Mostrar
+	[4.5]  Otros
+ [5]  Creditos
+============================================================================
+[1] Introduccion
+============================================================================
+"Cuestionarios Avanzados" es un programa ocio-didactico de preguntas y 
+respuestas, categorizadas por dificultad y con un tiempo maximo para su 
+respuesta.
+
+Lea atentamente este manual antes de comenzar a utilizar el programa, a fin 
+de garantizar el uso correcto y seguro del mismo.
+============================================================================
+[2] Ventana de Login
+============================================================================
+La primera funcion a la que tiene que enfrentase como usuario es 
+identificarse como usuario, si aun no lo es, registrarse en el boton 
+"registrar" de la aplicacion (seccion 2.1). En el caso de ser esto necesario
+lo debera hacer mediante un nombre usuario publico unico y contraseña para 
+cada uno de los usuarios. Tanto el nombre de usuario como la contraseña deben
+estar comprendidos entre 1 y 8 caracteres alfanuméricos.
+
+Una vez registrado volvera a la pantalla de acceso, donde debera introducir 
+sus datos.
+============================================================================
+[2.1] Ventana de Registro
+============================================================================
+En esta ventana debera introducir su nombre de acceso y la contraseña con la
+que quiere registrarse.
+============================================================================
+[3] Menu de jugador
+============================================================================
+Si ha accedido como jugador, el programa le ofrecera cuatro opciones:
+
+	1.La opcion "jugar" le llevara directamente al test.
+	2.La opcion "mi perfil" mostrara sus estadisticas y le permitira cambiar
+	su contraseña.
+	3.La opcion "Logout" le llevara directamente a la pantalla de inicio del
+	programa.
+============================================================================
+[3.1] Menu de jugador - Jugar
+============================================================================
+Cuando pulsa el boton de jugar debe elegir la dificultad de las preguntas 
+antes de comenzar con el juego.
+Una vez elegido el nivel, comenzaran las preguntas con un determinado tiempo
+que sera funcion de la dificultad elegida (60 segundos por pregunta para 
+facil, 30 para medio, 15 para dificil).
+Se ofrecen al usuario cinco preguntas para cada nivel de dificultad.
+Sera necesario que la respuesta sea exactamente la pedida, con una sola 
+palabra, no se tendran en cuenta las mayusculas (que podran escribirse o no)
+pero sera necesario no utilizar acentos ni signos de puntacion. La respuesta
+debe consistir en una sola palabra.
+Una vez introducida y aceptada la respuesta, el programa verificara que la 
+respuesta es correcta, calculando su puntuacion mediante un algoritmo. En el
+caso de haber respondido erroneamente se le mostrara la respuesta correcta 
+y su puntuacion sera 0.
+Una vez completado el test se mostrara la puntuacion final de la partida y 
+el programa dara la opcion de jugar de nuevo o volver al menu principal.
+============================================================================
+[3.2] Menu de jugador - Mi perfil
+============================================================================
+Dentro del menu "Mi perfil" podra ver las estadisticas de usuario, asi como 
+cambiar la contraseña.
+Las estadisticas estan compuestas por:
+Preguntas respondidas
+Preguntas acertadas
+Preguntas falladas
+Porcentaje de acierto
+Tiempo medio de respuesta (en segundos)
+Tiempo total jugado (en segundos)
+Mejor puntuacion
+Puntuacion total
+Para cambiar la contraseña simplemente habra que pulsar en esta opcion, 
+introducir la actual contraseña y la nueva contraseña dos veces.
+El boton "Atras" situado tanto en el menu cambiar contraseña como en mi 
+perfil dirige directamente al menu principal.
+============================================================================
+[3.3] Menu de jugador - Logout
+============================================================================
+Pulse este boton para salir de la aplicacion. Una vez pulsado podra volver a
+iniciar sesion con la misma u otra cuenta ya creada o crear una nueva cuenta
+de jugador.
+============================================================================
+[4] Menu de editor
+============================================================================
+Si ha ingresado en el programa con una cuenta de Editor se encontrara con un
+menu diferente al del jugador, compuesto por varios apartados con dos 
+opciones cada uno. En este caso, sus opciones agrupadas son:
+Añadir(Seccion 4.1):
+	-Editor
+	-Pregunta
+Ver/Editar(Seccion 4.2):
+	-Usuario
+	-Pregunta
+Borrar(Seccion 4.3):
+	-Usuario
+	-Pregunta
+Mostrar(Seccion 4.4):
+	-Usuarios
+	-Preguntas
+Otros(Seccion 4.5):
+	-Mi perfil
+	-Logout
+============================================================================
+[4.1] Menu de editor - Añadir
+============================================================================
+-Editor: Esta opcion le permite crear un nuevo usuario con permisos de 
+		 editor. El menu que aparece es identico al de crear cuenta de 
+		 jugador (se le pedira un nombre de usuario no existente y una
+		 contraseña) solo que en este caso tendra permisos de editor.
+-Pregunta: Para añadir una pregunta solo necesita introducir el enunciado, 
+la respuesta y la dificultad. Las preguntas deberan seguir un formato como 
+el que se detalla:
+	-La pregunta no tendra una longitud mayor de 150 caracteres. 
+	-Podra contener signos de interrogacion (¿?) pero no se permitira el uso
+	de ningun signo de puntuacion mas, como las comas o los acentos. 
+	-Estas cuestiones de estilo tambien se aplicaran a la respuesta.
+	-La respuesta sera una unica palabra de entre 1 y 45 caracteres. 
+	-El programa no tendra en cuenta el uso de mayusculas y minusculas a la 
+	hora de comprobar si la respuesta es correcta.
+============================================================================
+[4.2] Menu de editor - Ver/Editar
+============================================================================
+-Usuario: Aqui podra ver las estadisticas de cualquier usuario 
+(si es jugador) y cambiar la contraseña. Para ello solo debe pulsar el boton
+ indicado e introducir la nueva contraseña dos veces. (Vease la seccion 4.4)
+		
+-Pregunta: Esta opcion le permite cambiar una pregunta. Para ello solo debe 
+introducir su ID (vease la seccion 4.4). Una vez introducida podra modificar
+tanto el enunciado como la respuesta y la dificultad. Si no desea realizar 
+cambios, el boton "Atras" lo devolvera al menu principal.
+============================================================================
+[4.3] Menu de editor - Borrar
+============================================================================
+-Usuario: Le permite eliminar la cuenta de un usuario a su eleccion, excepto
+al usuario que esta dentro de la aplicacion. Para borrar un usuario necesita
+saber su nombre (vease la seccion 4.4).
+
+-Pregunta: Le permite eliminar una pregunta solamente introduciendo el 
+identificador de esta (vease la seccion 4.4).
+============================================================================
+[4.4] Menu de editor - Mostrar
+============================================================================
+-Jugador: Muestra una lista de todos los usuarios registrados en el sistema 
+ordenados alfabeticamente. La unica informacion que se muestra es el nombre 
+de usuario.
+
+-Pregunta: Muestra una lista de preguntas guardadas. Para ello primero ha de
+elegir la dificultad, y una vez realizado esto podra ver todas las preguntas
+pertenecientes a la categoria elegida, asi como su respuesta y su ID, que 
+podra utilizar para editar o borrar la pregunta.
+============================================================================
+[4.5] Menu de editor - Otros
+============================================================================
+-Mi perfil: Permite cambiar la contraseña. Simplemente pulse esta opcion e 
+introduzca su antigua y nueva contraseña.
+
+-Logout: Abandona el sistema para volver a la pantalla inicial, donde podra 
+iniciar sesion como el mismo u otro usuario o crear una cuenta de jugador 
+nueva.
+============================================================================
+[5] Creditos
+============================================================================
+Hasta aqui llega el manual de "Cuestionarios Avanzados". Esperemos el juego 
+sea de su agrado y disfrute y aprenda con el.
+
+El programa ha sido desarrollado por:
+-Alejandro Gil Torres
+-Javier Estevez Aguado
+-Javier Hernantes Anton
+-Marina Paz Garcia
+-Sebastian Alvaerz Mendez
